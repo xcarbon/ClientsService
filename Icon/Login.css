@@ -1,0 +1,300 @@
+/* Setting By M3fooos */
+
+
+/*  ---------------------------- ALL OTHERS WIDGETS ---------------------------- */
+
+* {
+    selection-background-color: rgb(67, 128, 179);
+    selection-color: rgb(255, 255, 255);
+}
+
+
+/*  ---------------------------- MAIN WINDOW, WIDGET ---------------------------- */
+
+QWidget {
+    color: black;
+    background-color: qlineargradient(spread: reflect, x1: 0, y1: 0.506, x2: 0, y2: 1, stop: 0 rgba(246, 246, 246, 255), stop: 0.479167 rgba(218, 218, 218, 255), stop: 1 rgba(213, 213, 213, 255));
+}
+
+
+/* -----------------------------------------------Q QLabel, QFrame------------------------------------------- */
+
+QLabel,
+QFrame {
+    color: black;
+    background: none;
+}
+
+QStatusBar {
+    color: black;
+    background: none;
+}
+
+
+/*  ---------------------------- Q TAB BAR ---------------------------- */
+
+QTabBar::tab {
+    color: rgb(150, 150, 150);
+    background: rgb(240, 240, 240);
+    height: 30;
+    width: 80;
+    border: rgb(240, 240, 240);
+    border-width: 0 0 2px 0;
+    padding-left: 10;
+}
+
+QTabBar::tab:selected {
+    background: white;
+    color: rgb(100, 100, 100);
+    border: solid rgb(0, 150, 255);
+    border-width: 0 0 5px 0;
+}
+
+QTableWidget QTableCornerButton::section {
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*-----------------------------------------------------------------
+------------------------------ LINE_EDIT --------------------------
+------------------------------ TEXT BROWSER -----------------------
+------------------------------ TEXT_EDIT---------------------------
+------------------------------ PLAIN_TEXT -------------------------
+------------------------------------------------------------------- */
+
+QLineEdit,
+QTextBrowser,
+QTextEdit,
+QPlainTextEdit {
+    color: rgb(20, 20, 20);
+    background-color: white;
+    padding: 1px;
+    border-style: solid;
+    border: 1px solid #1e1e1e;
+    border-radius: 7;
+}
+
+
+/* -------------------------------- CHECK BOX ----------------------------------------- */
+
+QCheckBox {
+    background: rgb(255, 255, 255);
+    color: rgb(25, 29, 32);
+    padding: 6;
+}
+
+
+/*  ---------------------------- PUSHBUTTON ---------------------------- */
+
+QPushButton {
+    border: 1px solid lightgrey;
+    color: white;
+    background: rgb(0, 115, 170);
+    min-height: 30;
+    min-width: 50;
+    padding: 1px;
+    border-style: solid;
+    border: 1px solid #1e1e1e;
+    border-radius: 7;
+}
+
+QPushButton:hover {
+    border: 1px solid lightgrey;
+    color: white;
+    background: rgb(0, 120, 210);
+}
+
+QPushButton:pressed {
+    border: 1px solid lightgrey;
+    color: white;
+    background: rgb(0, 53, 100);
+}
+
+
+/* ---------------------------------------- SLIDER HORIZONTAL ----------------------------------------------- */
+
+QSlider::groove:horizontal,
+QSlider::add-page:horizontal {
+    background: rgb(255, 255, 255);
+    height: 27px;
+}
+
+QSlider::sub-page:horizontal {
+    height: 10px;
+    background: rgb(0, 115, 170);
+}
+
+QSlider::handle:horizontal {
+    margin-right: -10px;
+    margin-left: -10px;
+    background: rgb(0, 115, 170);
+}
+
+QSlider::handle:horizontal:hover {
+    background: rgb(0, 115, 170);
+}
+
+
+/* --------------------------------  VERTICAL SLIDER --------------------------------------------------------------  */
+
+QSlider::handle {
+    border-radius: 3px;
+}
+
+QSlider::groove:vertical,
+QSlider::add-page:vertical,
+QSlider::sub-page:vertical {
+    width: 20px;
+    background: rgb(255, 255, 255);
+}
+
+QSlider::handle:vertical {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    background: rgb(0, 115, 170);
+}
+
+QSlider::handle:vertical:hover {
+    background: rgb(0, 115, 170);
+}
+
+
+/* --------------------------------- SCROLLBAR HORIZONTAL --------------------------------------  */
+
+QScrollBar::groove:horizontal {
+    background: white;
+    height: 17px;
+}
+
+QScrollBar::sub-page:horizontal,
+QScrollBar::add-page:horizontal {
+    height: 10px;
+    background: rgb(255, 255, 255);
+}
+
+QScrollBar::handle:horizontal {
+    margin-right: -5px;
+    background: rgb(0, 115, 170);
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: rgb(0, 115, 170);
+}
+
+
+/* --------------------------------------- SCROLLBAR VERTICAL ----------------------------------------------  */
+
+
+/* SCROLLBAR */
+
+QScrollBar:vertical {
+    background: white;
+    width: 15px;
+    margin: 22px 0 22px 0;
+}
+
+
+/* HANDLE*/
+
+QScrollBar::handle:vertical {
+    background: rgb(0, 115, 170);
+    min-height: 20px;
+}
+
+
+/* UP ARROW */
+
+QScrollBar::up-arrow:vertical {
+    image: url(Icon/img/arrow_up.png);
+    width: 10px;
+    height: 10px;
+}
+
+
+/* DOWN ARROW */
+
+QScrollBar::down-arrow:vertical {
+    image: url(Icon/img/arrow_down.png);
+    width: 10px;
+    height: 10px;
+}
+
+
+/* UP BUTTON */
+
+QScrollBar::sub-line:vertical {
+    background: rgb(0, 115, 170);
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+
+/* DOWN BUTTON */
+
+QScrollBar::add-line:vertical {
+    background: rgb(0, 115, 170);
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+
+/* SUBPAGES - ADDPAGE */
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+
+/* -----------------------------------------------Q TOOL BUTTON------------------------------------------- */
+
+
+/* BUTTON */
+
+QToolButton {
+    color: rgb(255, 255, 255);
+    background: rgb(35, 40, 45);
+}
+
+QToolButton:hover,
+QToolButton:pressed {
+    background-color: rgb(64, 73, 82);
+}
+
+QMessageBox QLabel {
+    color: red;
+}
+
+
+/*  ---------------------------- COMBO BOX ----------------------------*/
+
+QComboBox {
+    color: rgb(0, 115, 170);
+    background-color: rgb(255, 255, 255);
+    min-width: 5px;
+    padding: 1px 0px 1px 3px;
+    border: 1px solid rgb(0, 115, 170);
+}
+
+QComboBox:hover {
+    color: rgb(0, 115, 170);
+    background-color: white;
+}
+
+QComboBox:selected {
+    color: rgb(0, 115, 170);
+    selection-background-color: rgb(255, 255, 255);
+}
+
+QComboBox::drop-down {
+    image: url(Icon/img/arrow_down.png);
+    width: 30px;
+    background-color: rgb(0, 115, 170);
+}
+
+QComboBox::down-arrow {
+    width: 14px;
+    height: 14px;
+}
