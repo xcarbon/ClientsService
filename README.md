@@ -7,3 +7,7 @@
 @xking 
 
 M3foOos
+
+
+لتحميل الملف لنظام تشغيل ووندوز في ملف واحد exe 
+https://gofile.io/?c=n78pSg
